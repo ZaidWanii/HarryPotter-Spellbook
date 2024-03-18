@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/828/296/58/harry-potter-hogwarts-castle-wallpaper-preview.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.nav-bar {
+  background-color: #4527a0;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.spell-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  margin-top: 50px;
+  height: 70vh;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.spell-tag {
+  background-color: rgba(69, 39, 160, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.spell-tag:hover {
+  background-color: rgba(69, 39, 160, 1);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content p {
+  margin: 0 0 10px;
+}
+
+.modal-content button {
+  padding: 8px 16px;
+  background-color: blueviolet;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content button:hover {
+  background-color: #8a2be2;
+}
